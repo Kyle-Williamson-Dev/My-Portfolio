@@ -7,11 +7,50 @@
   font-family: 'Lato', sans-serif;
 }
 
+// Heading //
+
+section {
+  padding: 200px;
+}
+
 .banner {
+  position: relative;
   min-height: 100vh;
-  background: url(denver.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(denver.jpg);
   background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.5em;
+
+}
+
+.banner h1 span {
+  font-weight: 700;
+}
+
+.banner h2 {
+  color: #fff;
+  padding: 10px 0 20px;
+  font-weight: 400;
+}
+
+.btn {
+  position: relative;
+  background: #eb133e;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 400;
 }

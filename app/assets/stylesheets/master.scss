@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 // Banner //
@@ -12,7 +12,8 @@
 .banner {
   position: relative;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(COoutdoors.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(COoutdoors.jpg);
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -53,9 +54,9 @@
   transition: color 0.5s, background-color 0.5s, border 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
   color: #046bcc;
-  background: #fff; 
+  background: #fff;
 }
 
 // Navigation //
@@ -93,25 +94,23 @@ header ul li a {
 }
 
 header ul li .underline {
-	height: 3px;
-	background-color: transparent;
-	width: 0%;
-	transition: width 0.2s, background-color 0.5s;
-	margin: 0 auto;
+  height: 3px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
 }
 
 header ul li:hover .underline {
-	background-color: #046bcc;
-	width: 80%;
+  background-color: #046bcc;
+  width: 80%;
 }
-
 
 // About //
 
 .about {
   padding: 150px;
-  background-color: #f1efef;
-
+  background-color: #dfdfdf;
 }
 
 .about-box {
@@ -132,5 +131,15 @@ header ul li:hover .underline {
 // My Work //
 
 .my-work {
-  height: 100vm;
+  padding: 150px;
+}
+
+.my-work-content {
+  margin: auto;
+  width: 80%;
+  background-color: #dfdfdf;
+}
+
+.my-work h2 {
+  text-align: center;
 }

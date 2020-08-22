@@ -18,6 +18,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 200px;
+  box-shadow: 0 0 60px 0 black;
 }
 
 .banner h1 {
@@ -25,7 +26,6 @@
   color: #fff;
   font-weight: 300;
   line-height: 1.5em;
-
 }
 
 .banner h1 span {
@@ -50,6 +50,12 @@
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: 400;
+  transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+
+.btn:hover{
+  color: #046bcc;
+  background: #fff; 
 }
 
 // Navigation //
@@ -80,7 +86,51 @@ header ul li a {
   color: #fff;
   display: inline-block;
   margin: 15px;
+  padding: none;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  transition: color 0.5s;
 }
 
+header ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+header ul li:hover .underline {
+	background-color: #046bcc;
+	width: 80%;
+}
+
+
+// About //
+
+.about {
+  padding: 150px;
+  background-color: #f1efef;
+
+}
+
+.about-box {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.about-head {
+  text-align: center;
+  font-size: 30px;
+  color: #046bcc;
+  padding-bottom: 25px;
+}
+
+// My Work //
+
+.my-work {
+  height: 100vm;
+}

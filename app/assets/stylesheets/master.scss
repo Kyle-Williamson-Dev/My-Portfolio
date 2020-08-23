@@ -52,6 +52,7 @@
   letter-spacing: 2px;
   font-weight: 400;
   transition: color 0.2s, background-color 0.2s;
+  border-radius: 20px;
 }
 
 .btn:hover {
@@ -131,7 +132,7 @@ header ul li:hover .underline {
 // My Work //
 
 .my-work {
-  padding: 200px;
+  padding: 180px;
   background-color: #046bcc;
 }
 
@@ -145,12 +146,40 @@ header ul li:hover .underline {
 
 .project-box {
   flex: 0 0 200px;
-  margin: 10px;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  margin: 40px;
+  flex-grow: 5;
   background-color: #fff;
+  box-shadow: 10px 10px 20px black;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .project-text {
   padding: 0 20px 20px;
+}
+
+.project-text p {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.project-text h2 {
+  padding: 20px 0 20px 0;
+}
+
+.project-box .project-text > button {
+  background: #fff;
+  color: #046bcc;
+  padding: 10px;
+  width: 100%;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.project-box .project-text > button:hover {
+  background: #046bcc;
+  color: #fff;
+  border: 2px solid #046bcc;
 }

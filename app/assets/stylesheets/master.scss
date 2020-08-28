@@ -12,8 +12,7 @@
 .banner {
   position: relative;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(COoutdoors.jpg);
+  background-image: asset-url("website_banner.jpg");
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -70,7 +69,18 @@ header {
   padding: 15px 100px;
   z-index: 1000;
   display: flex;
-  background-color: black;
+  background: transparent;
+}
+
+.nav-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 100px;
+  z-index: 1000;
+  display: flex;
+  background: black;
 }
 
 header ul {

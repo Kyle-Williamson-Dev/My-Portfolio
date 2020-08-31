@@ -154,12 +154,27 @@ header ul li:hover .underline {
   justify-content: center;
 }
 
+.projects-title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.projects-title h1 {
+  text-align: center;
+}
+
 .project-box {
   flex: 0 0 200px;
-  margin: 40px;
+  margin: 50px;
   flex-grow: 5;
   background-color: #fff;
   box-shadow: 10px 10px 20px black;
+  transition: transform 0.2s;
+}
+
+.project-box:hover {
+  transform: scale(1.1);
 }
 
 .project-image {

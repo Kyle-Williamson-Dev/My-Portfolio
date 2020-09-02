@@ -16,15 +16,3 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 100) {
-	    $(".nav-bg").css("background" , "black");
-	  }
-
-	  else{
-		  $("header").css("background" , "transparent");  	
-	  }
-  })
-})

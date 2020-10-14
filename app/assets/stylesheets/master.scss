@@ -10,7 +10,7 @@
 // Navigation //
 
 .navbar {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -66,6 +66,11 @@
 }
 
 // Banner //
+
+.banner-box {
+  margin: 0;
+  padding-top: 87px;
+}
 
 .banner {
   min-height: 100vh;
@@ -231,7 +236,7 @@
   font-size: 40px;
 }
 
-.contact-info ul li{
+.contact-info ul li {
   margin: 0;
   display: inline-block;
   padding-top: 30px;
